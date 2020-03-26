@@ -25,7 +25,7 @@ body {
   margin: 1rem auto;
   width: 500px;
   height: auto;
-  background-color: rgb(129, 120, 120);
+  background-color: rgb(8, 0, 0);
 }
 .movie-list a {
   text-decoration: none;
@@ -96,8 +96,33 @@ body {
   border: 1px solid grey;
   background-color: black;
 }
-
+.form {
+  display: flex;
+}
 .movie-warning {
   color: red;
   text-align: center;
 }
+.updateMovieFormCont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border: 0;
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+  max-width: 40%;
+  height: auto;
+  background-color: rgb(11, 12, 4);
+}
+.updateMovieFormCont textarea {
+  min-width: 90%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.updateMovieFormCont input {
+  min-width: 90%;
+  max-width: 100%;
+}
+

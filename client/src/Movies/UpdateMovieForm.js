@@ -43,7 +43,7 @@ const UpdateMovieForm = (props)=>{
   return(
     <div className='updateMovieFormCont'>
       <form onSubmit={handleSubmit}>
-        <input
+        <textarea
         type='textarea'
         name='title'
         placeholder='title'
